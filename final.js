@@ -1,5 +1,3 @@
-
-
 // function hide(elementId){
 //   document.getElementById("id1").style.display="none";
 //   document.getElementById("id2").style.display="none";
@@ -63,8 +61,7 @@ function load(){
 
 
     link.setAttribute('href',urlink);
-    link.setAttribute("style", "background-color:white;font-family: Arial Black; color:black; font-size:2em", );
-
+    link.setAttribute("style", "background-color:none;font-family: Garmond; color:black; font-size:30px; font-weight:bold; text-align:center;", );
 
     // var para2=document.createElement("Pa");
     link.innerHTML=title;
@@ -117,7 +114,8 @@ function load(){
 
 
        link.setAttribute('href',urlink);
-       link.setAttribute("style", "background-color:white;font-family: Arial Black; color:black; font-size:2em", );
+       link.setAttribute("style", "background-color:none;font-family: Garmond; color:black; font-size:30px; font-weight:bold; text-align:center;", );
+
 
 
        // var para2=document.createElement("Pa");
@@ -174,7 +172,8 @@ function load(){
 
 
          link.setAttribute('href',urlink);
-         link.setAttribute("style", "background-color:white;font-family: Arial Black; color:black; font-size:2em", );
+         link.setAttribute("style", "background-color:none;font-family: Garmond; color:black; font-size:30px; font-weight:bold; text-align:center;", );
+
 
 
          // var para2=document.createElement("Pa");
@@ -226,7 +225,7 @@ function load(){
 
 
            link.setAttribute('href',urlink);
-           link.setAttribute("style", "background-color:white;font-family: Arial Black; color:black; font-size:2em", );
+           link.setAttribute("style", "background-color:none;font-family: Garmond; color:black; font-size:30px; font-weight:bold; text-align:center;", );
 
 
            // var para2=document.createElement("Pa");
@@ -278,7 +277,8 @@ function load(){
 
 
              link.setAttribute('href',urlink);
-             link.setAttribute("style", "background-color:white;font-family: Arial Black; color:black; font-size:2em", );
+             link.setAttribute("style", "background-color:none;font-family: Garmond; color:black; font-size:30px; font-weight:bold; text-align:center;", );
+
 
 
              // var para2=document.createElement("Pa");
@@ -330,7 +330,7 @@ function load(){
 
 
                link.setAttribute('href',urlink);
-               link.setAttribute("style", "background-color:white;font-family: Arial Black; color:black; font-size:2em", );
+               link.setAttribute("style", "background-color:none;font-family: Garmond; color:black; font-size:30px; font-weight:bold; text-align:center;", );
 
 
                // var para2=document.createElement("Pa");
@@ -382,7 +382,8 @@ function load(){
 
 
                  link.setAttribute('href',urlink);
-                 link.setAttribute("style", "background-color:white;font-family: Arial Black; color:black; font-size:2em", );
+                 link.setAttribute("style", "background-color:none;font-family: Garmond; color:black; font-size:30px; font-weight:bold; text-align:center;", );
+
 
 
                  // var para2=document.createElement("Pa");
@@ -434,7 +435,7 @@ function load(){
 
 
                    link.setAttribute('href',urlink);
-                   link.setAttribute("style", "background-color:white;font-family: Arial Black; color:black; font-size:2em", );
+                   link.setAttribute("style", "background-color:none;font-family: Garmond; color:black; font-size:30px; font-weight:bold; text-align:center;", );
 
 
                    // var para2=document.createElement("Pa");
@@ -494,7 +495,7 @@ function load(){
                      }
 
                      link.setAttribute('href',urlink);
-                     link.setAttribute("style", "background-color:white;font-family: Arial Black; color:black; font-size:2em", );
+                     link.setAttribute("style", "background-color:none;font-family: Garmond; color:black; font-size:30px; font-weight:bold; text-align:center;", );
 
 
                      // var para2=document.createElement("Pa");
@@ -546,7 +547,8 @@ function load(){
 
 
                        link.setAttribute('href',urlink);
-                       link.setAttribute("style", "background-color:white;font-family: Arial Black; color:black; font-size:2em", );
+                       link.setAttribute("style", "background-color:none;font-family: Garmond; color:black; font-size:30px; font-weight:bold; text-align:center;", );
+
 
 
                        // var para2=document.createElement("Pa");
@@ -599,7 +601,7 @@ function load(){
 
 
                        link.setAttribute('href',urlink);
-                       link.setAttribute("style", "background-color:white;font-family: Arial Black; color:black; font-size:2em", );
+                       link.setAttribute("style", "background-color:none;font-family: Garmond; color:black; font-size:30px; font-weight:bold; text-align:center;", );
 
 
                        // var para2=document.createElement("Pa");

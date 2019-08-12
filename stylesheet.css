@@ -1,31 +1,39 @@
+
+
+
 / Style the tab /
 .tab {
 overflow: hidden;
 border: 1px solid #ccc;
-background-color: #f1f1f1;
+background-color: #C0C0C0;
 }
 
 .tab button {
-background-color: inherit;
-float: left;
+background-color: #B0C4DE;
+float: center;
 border: none;
+/* border-color: #C0C0C0; */
+border-spacing: 20px;
 outline: none;
 cursor: pointer;
 padding: 14px 16px;
 transition: 0.3s;
-font-size: 17px;
+font-size: 18px;
+font-family: courier New, monospace;
+/* font-weight: bold; */
 }
 
 .tabcontent {
 display: none;
 padding: 6px 12px;
-border: 1px solid #FCB;
+border: 1px solid #BBB;
 border-top: none;
+
 }
 
 / Change background color of buttons on hover /
 .tab button:hover {
-background-color: #bbb;
+background-color: #eee;
 }
 
 / Create an active/current tablink class /
@@ -39,14 +47,17 @@ display: none;
 padding: 6px 12px;
 border: 1px solid #ccc;
 border-top: none;
+align-content: center;
+font-family: comic sans-serif, cursive;
 }
 .btn-group button{
   background-color:#99b6c9
   border: 1px solid black;
+  float:center;
   color: black;
   padding: 10px 24px;
   cursor:pointer;
-  float: left;
+  align-content: center;
 }
 .btn-group: after{
   content: "";
@@ -56,7 +67,23 @@ border-top: none;
 .btn-group button: hover {
   background-color:#99b6c9;
 }
-
+.btncontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  align-content: center;
+  font-family: comic sans-serif, cursive;
+}
+.footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color:blue;
+  color:black;
+  text-align:center;
+}
 p {
 text-indent: 50px}
 
@@ -64,11 +91,13 @@ p.exl {
   direction: rtl;
 }
 #TheWorldNews {
-  font-family: Jaz LET, fantasy;
+  font-family: Lucida Console, monospace;
   text-align: center;
   letter-spacing: 3px;
   word-spacing: 10px;
-background-image: url("news-1.jpg")
+  font-weight:bold;
+  font-size: 50px
+/* background-image: url("news-1.jpg") */
 }
 #Tabs {
   overflow: scroll;
@@ -77,17 +106,20 @@ background-image: url("news-1.jpg")
   text-align: center;
 }
 
-#Homepage {
-  font-family: comic sans-serif, cursive;
+#Home {
+  font-size:14px;
   text-align: center;
+  font-weight:bold;
   letter-spacing: 3px;
   word-spacing: 10px;
-  background-color: lightblue;
-  background-image: url("news-1.jpg")
+  font-family:comic Sans-serif, fantasy;
+
 }
 
 #LocalNews {
-  font-family: comic sans-serif, cursive;
+  font-family: Jaz LET, cursive;
+  font-size: 50px;
+  font-weight: bold;
   text-align: center;
   letter-spacing: 3px;
   word-spacing: 10px;
@@ -103,11 +135,11 @@ background-image: url("news-1.jpg")
 }
 
 #Weather {
-  font-family: comic sans-serif, cursive;
+  font-family: Comic sans-serif,cursive;
   text-align: center;
   letter-spacing: 3px;
-  word-spacing: 10px;
-    background-image: url("clouds.jpg")
+  word-spacing: 20px;
+  background-image: url("clouds.jpg")
 }
 
 #Entertainment {
@@ -119,8 +151,30 @@ background-image: url("news-1.jpg")
 }
 
 #AboutUs {
-  font-family: comic sans-serif, cursive;
+  font-family: Garmond, cursive;
   text-align: center;
   letter-spacing: 3px;
   word-spacing: 10px;
+  font-size: 18px;
+}
+#name {
+  text-align: center;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: underline;
+}
+/* #uk{
+  background-image:url(uk.png);
+  opacity:0.5;
+} */
+.footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color:blue;
+  color:black;
+  text-align:center;
 }

@@ -1,7 +1,8 @@
-#LocalNews {
+#Homepage {
   font-family: comic sans-serif, cursive;
   text-align: center;
   letter-spacing: 3px;
   word-spacing: 10px;
-  background-image: url("light.jpg")
+  background-color: lightblue;
+  background-image: url("news-1.jpg")
 }

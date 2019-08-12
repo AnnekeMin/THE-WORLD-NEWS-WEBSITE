@@ -23,20 +23,23 @@
 <button class="tablinks" onclick="openAboutUs()">About Us</button>
 </div>
 </div>
+<br>
+</br>
 <div class="btn-group">
-
-  <button onclick="window.location.href='uk.html';">United Kingdom </button>
-  <button onclick="window.location.href='aus.html';">Australia </button>
-<button onclick="window.location.href='india.html';">India </button>
-<button onclick="window.location.href='sa.html';">Mexico</button>
-<button onclick="window.location.href='china.html';">China</button>
-<button onclick="window.location.href='canada.html';">Canada</button>
-<button onclick="window.location.href='france.html';">France</button>
-<button onclick="window.location.href='israel.html';">Israel</button>
+<center><table>
+<tr><td><button onclick="window.location.href='uk.html';">United Kingdom </button></td>
+<td><button onclick="window.location.href='aus.html';">Australia </button></td>
+<td><button onclick="window.location.href='india.html';">India </button></td>
+<td><button onclick="window.location.href='mexico.html';">Mexico</button></td>
+<td><button onclick="window.location.href='china.html';">China</button></td>
+<td><button onclick="window.location.href='canada.html';">Canada</button></td>
+<td><button onclick="window.location.href='france.html';">France</button></td>
+<td><button onclick="window.location.href='israel.html';">Israel</button></tr>
 </div>
-
+</center></table>
+<div>
 <body onload="loaduk()">
-  <div id="TheWorldNews" class= "tab">
+  <div id="uk" class= "tab">
   <h2 style="text-align: center;"> The World News</h2>
   </div>
 
@@ -46,7 +49,7 @@
 
 <script>
   function openhome() {
-    window.location.href="Home.html";
+    window.location.href="index.html";
   }
   function openglobal() {
     window.location.href="GlobalNews.html";
@@ -57,15 +60,12 @@
       function openweather() {
         window.location.href="Weather.html";
       }
-
-
       function openEnter() {
         window.location.href="Enter.html";
   }
         function openAboutUs() {
           window.location.href="AboutUs.html";
   }
-
     // var i, tabcontent, tablinks;
     // tabcontent = document.getElementsByClassName("tabcontent");
     // for (i = 0; i < tabcontent.length; i++) {
@@ -77,8 +77,6 @@
     // }
     // document.getElementById(cityName).style.display = "block";
     // evt.currentTarget.className += " active";
-
-
   </script>
 
   <!-- <style>

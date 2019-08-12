@@ -10,7 +10,7 @@
 </head>
 
 
-<body>
+<body bgcolor="#F0F8FF">
 <div id="TheWorldNews" class= "tab">
 <h2 style="text-align: center;"> The World News</h2>
 </div>
@@ -27,10 +27,11 @@
 </div>
 
 <body>
-      <center><h3 style="font-family: Comic Sans MS, cursive;">Weather</h3></center>
-      <p>How is the climate today?</p>
+<div id="Weather">
+  <center><h3 style=font-family="Jaz LET, cursive;">Weather</h3></center>
+  <p><b>How is the climate today?</b></p>
 
-
+</div>
       <p>
         <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/?unit=us" data-label_1="NEW YORK" data-label_2="WEATHER" data-theme="original" >NEW YORK WEATHER</a>
       <script>
@@ -85,7 +86,7 @@
 
 <script>
   function openhome() {
-    window.location.href="Home.html";
+    window.location.href="index.html";
   }
   function openglobal() {
     window.location.href="GlobalNews.html";
@@ -96,15 +97,12 @@
       function openweather() {
         window.location.href="Weather.html";
       }
-
-
       function openEnter() {
         window.location.href="Enter.html";
   }
         function openAboutUs() {
           window.location.href="AboutUs.html";
   }
-
     // var i, tabcontent, tablinks;
     // tabcontent = document.getElementsByClassName("tabcontent");
     // for (i = 0; i < tabcontent.length; i++) {
@@ -116,8 +114,6 @@
     // }
     // document.getElementById(cityName).style.display = "block";
     // evt.currentTarget.className += " active";
-
-
   </script>
 </body>
 </html>
