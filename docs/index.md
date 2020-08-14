@@ -1,37 +1,102 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en-US">
 
-You can use the [editor on GitHub](https://github.com/AnnekeMin/THE-WORLD-NEWS-WEBSITE/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="final.js" type="text/javascript"></script>
+  <script src="countrytest.js" type="text/javascript"></script>
+  <!-- <link href="finalproject.js" rel="finalproject" type="text/js"> -->
+  <link rel="stylesheet1" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="stylesheet1.css">
+  <meta name="viewport" content="width=device-width, intial-scale=1">
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+</head>
 
-```markdown
-Syntax highlighted code block
+<body bgcolor="#F0F8FF">
+<div id="TheWorldNews" class= "tab">
+<h2 <align="right":></h2>
+<p style=font-size:"40px;"> The World News <img src="global.jpg", width="50", height="50"></p>
 
-# Header 1
-## Header 2
-### Header 3
+</div>
 
-- Bulleted
-- List
+<div id="Tabs">
+<div class="tab">
+<button class="tablinks" onclick="openhome()">Home Page</button>
+<button class="tablinks" onclick="openlocal()">Local News</button>
+<button class="tablinks" onclick="openglobal()">Global News</button>
+<button class="tablinks" onclick="openweather()">Weather</button>
+<button class="tablinks" onclick="openEnter()">Entertainment</button>
+<button class="tablinks" onclick="openAboutUs()">About Us</button>
+</div>
+</div>
 
-1. Numbered
-2. List
+<body>
+  <div id="Home">
+  <center><h3> HIGHLIGHTS (TOP TRENDS):</h3></center>
+</div>
+  <button id="btn" onclick="loaduk(); loadaus(); laodindia()">
+    <script type="text/javascript">
+    document.getElementById("btn").click();
+    </script>
+  <!-- <div id="demo1">
+  <button onclick="loadglobal()">Get News</button>
+  </div> -->
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+  <!-- <style>
+  div{
+    display:none;
+  }
+  </style> -->
+  <!-- <button onclick="hide()">hide</button> -->
 
-### Jekyll Themes
+  <script>
+  function openhome() {
+    window.location.href="index.html";
+  }
+  function openglobal() {
+    window.location.href="GlobalNews.html";
+  }
+    function openlocal() {
+      window.location.href="LocalNews.html";
+    }
+      function openweather() {
+        window.location.href="Weather.html";
+      }
+      function openEnter() {
+        window.location.href="Enter.html";
+  }
+        function openAboutUs() {
+          window.location.href="AboutUs.html";
+  }
+    // var i, tabcontent, tablinks;
+    // tabcontent = document.getElementsByClassName("tabcontent");
+    // for (i = 0; i < tabcontent.length; i++) {
+    //   tabcontent[i].style.display = "none";
+    // }
+    // tablinks = document.getElementsByClassName("tablinks");
+    // for (i = 0; i < tablinks.length; i++) {
+    //   tablinks[i].className = tablinks[i].className.replace(" active", "");
+    // }
+    // document.getElementById(cityName).style.display = "block";
+    // evt.currentTarget.className += " active";
+  </script>
+</body>
+</html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AnnekeMin/THE-WORLD-NEWS-WEBSITE/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
